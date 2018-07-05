@@ -23,22 +23,21 @@ $_SESSION['message']="";
 		html,body{
 			margin: 0;
 			padding: 0;
-			background: #1A1A1D;
+			background: white;
 		}
 
 		.title{
 			text-align: center;
-			background: #111111;
-			color: yellow;
-			font-family: 'Sofia';
-			letter-spacing: 0.4em;
+			color: black;
+			font-family: 'Times New Roman';
+			letter-spacing: 0.1em;
 			font-size: 4em;
 			padding: 5px;
 		}
 
 		.tagline{
 			text-align: center;
-			color: yellow;
+			color: red;
 			letter-spacing: 0.2em;
 			font-size: 2em;
 			padding: 5px;
@@ -54,6 +53,7 @@ $_SESSION['message']="";
 			margin: 2%;
 			margin-left: 30%;
 			min-width: 15%;
+			cursor: pointer;
 		}
 
 		#appButtonContainer:hover{
@@ -70,6 +70,7 @@ $_SESSION['message']="";
 			margin: 2%;
 			margin-left: 7%;
 			min-width: 7%;
+			cursor: pointer;
 		}
 
 		#logoutButtonContainer:hover{
@@ -87,6 +88,7 @@ $_SESSION['message']="";
 
 		.userDisplay{
 			margin-bottom: 3%;
+            color: black; 
 		}
 
 	</style>
@@ -98,7 +100,7 @@ $_SESSION['message']="";
 	<span id="logoutButtonContainer"><a onclick="logout()">Logout</a></span>	
 	<div class="sessionDisplay">
 		<div class="userDisplay"><?php echo "User : ".$_SESSION["username"]; ?></div>
-		<div><?php echo "E-Mail : ".$_SESSION["email"]; ?></div>
+		<div style="color: black;"><?php echo "E-Mail : ".$_SESSION["email"]; ?></div>
 	</div>
 <script src="functions.js"></script>
 </body>
