@@ -46,7 +46,7 @@ $tablename = $username."appointments";
 		}
 
 		.sidenavlinks{
-			font-family: 'Sofia';
+			font-family: 'Times New Roman';
 		}
 
 		.sidenav a{
@@ -59,11 +59,13 @@ $tablename = $username."appointments";
 
 		.sidenav a:hover{
 		    color: #f1f1f1;
+		    cursor: pointer;
 		}
 
 		.title{
 			font-size: 2em;
 			padding: 5px;
+
 		}
 
 		.main{
@@ -91,6 +93,7 @@ $tablename = $username."appointments";
 		.topnav a:hover{
 		    background-color: yellow;
 		    color: black;
+		    cursor: pointer;
 		}
 
 		.sticky{
@@ -300,7 +303,7 @@ $tablename = $username."appointments";
 
 		.tdyHeader{
 			background-color: #01FF70;
-			font-family: "Comic Sans MS";
+			
 			font-size: 1.5em;
 			padding: 5px;
 		}
@@ -319,14 +322,14 @@ $tablename = $username."appointments";
 		    padding: 2px 16px;
 		    background-color: orange;
 		    color: white;
-		    font-family: "Comic Sans MS";
+		    
 		    font-size: 1.7em;
 		}
 
 		.tdyBodyClass{
 			overflow: auto;
 			min-height: 50px;
-			font-family: "Trebuchet MS";
+			
 			border-bottom-left-radius: 5px;
 			border-bottom-right-radius: 5px;
 		    padding: 2px 16px;
@@ -341,7 +344,7 @@ $tablename = $username."appointments";
 		}
 
 		.tdyTimingsClass{
-			font-family: "Trebuchet MS";
+			
 			font-style: italic;
 			margin-top: 40px;
 			font-weight: 600;
@@ -362,6 +365,7 @@ $tablename = $username."appointments";
 			text-align: center;
 			padding-top: 30px;
 			padding-bottom: 30px;
+			cursor: pointer;
 		}
 
 		.inviteeSpanClass{
@@ -471,7 +475,7 @@ $tablename = $username."appointments";
 				<span id="ddDisp"></span>
 			</div>
 			<div id="tdyAppRegion"></div>
-			<div id="clickHereId">Click here to add appointments</div>
+			<div id="clickHereId">Click here to add Appointments</div>
 		</div>
 	</div>
 	<div class="modal" id="modalId"> 
@@ -489,7 +493,7 @@ $tablename = $username."appointments";
 					<div><input id="descInputId" class="inputClass" type="text" name="description" placeholder="Add description"/></div>
 					<div>
 						<span id="inviteTextSpan">Add Guests :</span>
-						<input id="inviteInputId" type="text" name="invitee" placeholder="Username">
+						<input id="inviteInputId" type="text" name="invitee" placeholder="Not yet done">
 						<button id="inviteeAdd">Add</button>
 					</div>
 					<div id="inviteeAppendRegion"></div>
