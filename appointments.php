@@ -20,7 +20,7 @@ $tablename = $username."appointments";
 <html>
 <head>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<title>Appointments | Scheduler</title>
+	<title>Appointments</title>
 	<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<style type="text/css">
@@ -39,7 +39,7 @@ $tablename = $username."appointments";
 		    position: fixed;
 		    top: 1.1vh;
 		    left: 0;
-		    background-color: #111111;
+		    background-color: yellow;
 		    overflow-x: hidden;
 		    padding-top: 1.97vh;
 		    
@@ -53,12 +53,12 @@ $tablename = $username."appointments";
 		    padding: 6px 8px 6px 16px;
 		    text-decoration: none;
 		    font-size: 25px;
-		    color: #818181;
+		    color: black;
 		    display: block;
 		}
 
 		.sidenav a:hover{
-		    color: #f1f1f1;
+		    color: red;
 		    cursor: pointer;
 		}
 
@@ -75,15 +75,15 @@ $tablename = $username."appointments";
 		}
 
 		.topnav{
-		    background-color: #111111;
+		    background-color: yellow;
 		    overflow: hidden;
 		}
 
 		.topnav a{
-		    float: left;
+		    float: center;
 		    display: block;
 		    z-index: 1;
-		    color: #f2f2f2;
+		    color: black;
 		    text-align: center;
 		    padding: 0px 16px;
 		    text-decoration: none;
@@ -91,7 +91,7 @@ $tablename = $username."appointments";
 		}
 
 		.topnav a:hover{
-		    background-color: yellow;
+		    
 		    color: black;
 		    cursor: pointer;
 		}
@@ -489,8 +489,8 @@ $tablename = $username."appointments";
 				</div>
 			</div>
 			<div class="modal-body">		
-					<div><input id="titleInputId" class="inputClass" type="text" name="title" placeholder="Add title"/></div>
-					<div><input id="descInputId" class="inputClass" type="text" name="description" placeholder="Add description"/></div>
+					<div><input id="titleInputId" class="inputClass" type="text" name="title" placeholder="Title"/></div>
+					<div><input id="descInputId" class="inputClass" type="text" name="description" placeholder="Description"/></div>
 					<div>
 						<span id="inviteTextSpan">Add Guests :</span>
 						<input id="inviteInputId" type="text" name="invitee" placeholder="Not yet done">
